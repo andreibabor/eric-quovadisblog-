@@ -1,0 +1,576 @@
+/*
+
+
+
+Theme Name: Dazzling Child
+
+
+
+Theme URI: http://colorlib.com/wp/themes/dazzling
+
+
+
+Description: Dazzling is a clean, modern, minimal and fully responsive flat design WordPress WooCommerce theme well suited for blogs, static and ecommerce websites. Theme can be used for travel, corporate, portfolio, photography, green thinking, nature, health, personal and any other creative and minimalistic style website. Dazzling theme is highly customizable with unlimited color options, slider, call for action button, several widget areas and much more that can be adjusted via Theme Options. The theme is built using Bootstrap 3, which makes it responsive and mobile friendly. It features infinite scroll, SEO friendly structure, logo upload, full-screen slider, call for action section, social media icons, popular post widget and translation ready setup. This theme supports WooCommerce and Jigoshop ecommerce plugins. Dazzling is also available in Mexican Spanish, Brazilian Portuguese, Finnish, Swedish, Dutch, Hungarian and Polish. It is probably the best free WordPress theme built for eStores and business websites.
+
+
+
+Version: 1.4.3
+
+
+
+Template: dazzling
+
+
+
+*/
+
+
+
+
+
+
+
+@import url("../dazzling/style.css");
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+
+
+body {
+
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.42857143;
+
+}
+
+
+
+.img-responsive {
+
+	display: block;
+
+	max-width: 100%;
+
+	height: auto;
+
+}
+
+
+
+h1.entry-title {
+
+	color: #444;
+
+}
+
+
+
+.content {
+
+	font-size: 16px;
+
+}
+
+
+
+#footer-area ul li {
+
+	border-bottom: 0px;
+
+}
+
+
+
+#footer-area .widget ul li {
+
+	padding: 5px 0;
+
+	list-style: none;
+
+}
+
+
+
+.entry-content img.wp-post-image {
+
+	margin-right: 10px;
+
+}
+
+
+
+.superscript {
+
+	font-size: 50%;
+
+	line-height: 0;
+
+	position: relative;
+
+	vertical-align: baseline;
+
+	top: -0.75em;
+
+}
+
+
+
+.widget ul.contact-infos {
+
+	padding: 0px 10px 10px 14px;
+
+	color: #fff;
+
+}
+
+
+
+#footer-area .widget ul li {
+
+	padding: 5px 0 0px 0px;
+
+	list-style: disc;
+
+}
+
+
+
+#footer-area a {
+
+	color: #fff;
+
+}
+
+
+
+#footer-area a:hover {
+
+	color: #fff;
+
+	text-decoration: underline;
+
+}
+
+
+
+img.pulse {
+
+	-webkit-transition: all 0.5s ease 0s;
+
+	-moz-transition: all 0.5s ease 0s;
+
+	-ms-transition: all 0.5s ease 0s;
+
+	-o-transition: all 0.5s ease 0s;
+
+	transition: all 0.5s ease 0s;
+
+}
+
+
+
+img.pulse:hover {
+
+	-webkit-opacity: 0.75;
+
+	-moz-opacity: 0.75;
+
+	opacity: 0.75;
+
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=75)";
+
+	filter: alpha(opacity=75);
+
+}
+
+
+
+.appicons p {
+
+	margin: 30px 0 50px 0;
+
+}
+
+
+li#menu-item-13852 a:hover {
+	background-color: #C3423E;
+}
+
+
+a.featured_post_link, a.featured_post_link:link, a.featured_post_link:active {
+	color: #c97200;
+	font-size: 16px;
+}
+
+a.featured_post_link:visited {
+	color: #c97200;
+	font-size: 16px;
+}
+
+a.featured_post_link:hover {
+	color: #4f3200;
+	font-size: 16px;
+}
+
+
+
+.comment-image img {
+	max-width: 300px !important;
+	/* max-height: 100%; */
+	/* width: 100%; */
+}
+
+.tab-content .tab-entry {
+	font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*****************************************************************
+
+
+
+
+
+
+
+						Media - mobile
+
+
+
+
+
+
+
+						*******************************************************************/
+
+
+
+
+
+
+
+						@media (max-width: 767px) {
+
+
+
+							.featured-post-hold a .gradient h1 {
+
+								font-size: 1.2em !important;
+
+								bottom: 20px;
+
+							}
+
+
+
+							#menu-top_menu-1 li.menu-item a {
+
+								color: #333;
+
+							}
+
+
+
+							#menu-top_menu-1 li.menu-item a:hover {
+
+								color: #333;
+
+								background-color: #FF9C01;
+
+							}
+
+
+
+							.flexslider {
+
+								display: none;
+
+							}
+
+
+
+
+
+							.pp {
+								background-color: #1b7e7b;
+								border: 0 solid;
+								bottom: 0;
+								color: #fff;
+								float: right;
+								font-size: 12px;
+								font-weight: bold;
+								height: 21px;
+								margin-top: 10px;
+								padding-left: 6px;
+								padding-right: 6px;
+								position: relative;
+								right: 250px;
+							}
+
+
+
+						}
+
+
+
+
+
+
+
+
+
+/*****************************************************************
+
+
+
+
+
+
+
+						Media - tablet
+
+
+
+
+
+
+
+						*******************************************************************/
+
+
+
+
+
+
+
+						@media (min-width: 768px) and (max-width: 991px) {
+
+						}
+
+
+
+
+
+
+
+
+
+/*****************************************************************
+
+
+
+
+
+
+
+						Media - desktop
+
+
+
+
+
+
+
+						*******************************************************************/
+
+
+
+
+
+
+
+						@media (min-width: 992px) and (max-width: 1199px) {
+
+						}
+
+
+
+
+
+
+
+
+
+/*****************************************************************
+
+
+
+
+
+
+
+						Media - large desktop
+
+
+
+
+
+
+
+						*******************************************************************/
+
+
+
+						@media (min-width: 1200px) {
+
+						}
+
+
+
+/*****************************************************************
+/*begin andrei css*/
+.first-footer {
+	background-color: #e73c4c;
+	color: #fff6ef;
+	margin-top: 20px;
+	font-size: 15px;
+}
+
+.second-footer {
+	background-color: #c9182c;
+	color: #e8ecde;
+	font-size: 14px;
+	line-height: 25px;
+}
+.footer-nav {
+	padding: 0;
+}
+.footer-nav li {
+	list-style: none;
+}
+.footer-nav li a {
+	color: inherit;
+	cursor: pointer;
+	text-decoration: none;
+}
+.footer-nav li a:hover {
+	color: inherit;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.columns.footerphone .col-sm-6{
+	width: 100%;
+}
+
+.first-footer .widgettitle{
+	margin: 10px 0 20px;
+	padding-bottom: 4px;
+	border-bottom: 1px solid;
+	width: 80%;
+	color: #fff6ef;
+	font-size: 17px;
+	font-weight: normal;
+}
+
+
+.first-footer .columns{ 
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.first-footer p,
+.first-footer .widget{
+	margin: 0;
+}
+
+#menu-footer_site_map{
+	padding: 0;
+}
+#menu-footer_site_map a{
+	color: #fff6ef;
+	font-size: 15px;
+}
+#menu-footer_site_map a:before{
+	content: ">";
+	padding-right: 10px;
+}
+
+.teal-div, .teal-div:hover, .teal-div:focus {
+	color: #fff !important;
+	border: 1px solid #ccc;
+	display: block;
+	cursor: pointer;
+	text-decoration: none;
+	background-color: #0B5F6A;
+	text-align: center;
+	padding: 10px;
+	box-shadow: 4px 4px 11px 0px rgba(64, 53, 53, 0.66);
+}
+.teal-div:hover, .teal-div:focus {
+	background-color: #06464e;
+	box-shadow: 4px 4px 11px 0px rgb(0, 0, 0);
+}
+
+.first-footer .form-group{
+	margin-top: 10px;
+}
+
+.first-footer .btn-custom {
+	color: #fff;
+	background-color: #c9182c;
+	border-color: white;
+	border-radius: 0;
+}
+
+.first-footer .btn-custom:hover, 
+.first-footer .btn-custom:focus {
+	color: #fff;
+	background-color: #b91427;
+	border-color: white;
+}
+
+.second-footer a.cmp, .second-footer a.cmp:hover, .second-footer a.cmp:visited,  .second-footer a.cmp:focus, .second-footer a.cmp:active, .second-footer a.cmp:hover {
+	color: #e8ecde;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.second-footer .columns{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+
+ .second-footer .social a {
+	margin: 0 7px;
+}
+ .second-footer .social a:first-child {
+	margin-left: 0;
+}
+.second-footer .social a:last-child {
+  	margin-right: 0;
+}
+/*end andrei css*/
+/*****************************************************************
