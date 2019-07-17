@@ -451,6 +451,29 @@ a.featured_post_link:hover {
 
 /*****************************************************************
 /*begin andrei css*/
+
+.top-bar {
+	background-color: #e73c4c;
+	color: white;
+	padding: 1.5px;
+}
+.top-bar .navbar-nav > li > a {
+	margin: 0;
+	padding: 8px 10px 5px 10px;
+	color: white;
+	font-weight: normal;
+	font-size: 14px;
+}
+.top-bar .navbar-nav > li > a:hover, .top-bar .navbar-nav > li > a:focus {
+	text-decoration: underline;
+	background: transparent;
+}
+.top-bar .first-info {
+	display: inline-block;
+	padding: 6px 0px 4px 0px;
+	font-size: 19.2px;
+}
+
 .first-footer {
 	background-color: #e73c4c;
 	color: #fff6ef;
@@ -571,6 +594,14 @@ a.featured_post_link:hover {
 }
 .second-footer .social a:last-child {
   	margin-right: 0;
+}
+
+@media only screen and (max-width: 767px) { 
+	.top-bar .navbar-nav > li > a{
+		text-align: center;
+		padding: 10px;
+		font-size: 17px;
+	}
 }
 /*end andrei css*/
 /*****************************************************************
