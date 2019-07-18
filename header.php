@@ -34,8 +34,9 @@
 
 	<!-- favicon -->
 
-
-
+	<!-- google font  -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"> 
+	<!-- end google font -->
 	<?php if ( of_get_option( 'custom_favicon' ) ) { ?>
 
 	<link rel="icon" href="<?php echo of_get_option( 'custom_favicon' ); ?>" />
@@ -87,81 +88,80 @@
 
 	<div id="page" class="hfeed site">
 
-<header class="top-bar">
-		<div class="container">
-			<div class="row">
-				<div class="first-info hidden-xs">
-					Designed in France, Made in the USA
-				</div>
-				<div class="pull-right">
-					<ul class="nav navbar-nav">
-						<li class="hidden-xs"><a href="http://quovadisblog.com/" target="_blank">Blog</a></li>
-						<li class="hidden-xs"><a href="/contact">Contact</a></li>
-						<li class="hidden-xs"><a href="http://eepurl.com/ca0czf">Subscribe</a></li>
-						<li class="topbook"><a href="/search/which-planner" style="border-top: 0;">Which Planner Do I Have?<img src="<?php echo get_site_url(); ?>/wp-content/uploads/2019/07/top-book.png" style="height: 24px;margin-left: 7px;margin-top: -4px;" alt=""></a></li>
-					</ul>
+		<header class="top-bar">
+			<div class="container">
+				<div class="row">
+					<div class="first-info hidden-xs">
+						Designed in France, Made in the USA
+					</div>
+					<div class="pull-right">
+						<ul class="nav navbar-nav">
+							<li class="hidden-xs"><a href="https://quovadisplanners.com/contact">Contact</a></li>
+							<li class="hidden-xs"><a href="http://eepurl.com/ca0czf">Subscribe</a></li>
+							<li class="topbook"><a href="https://quovadisplanners.com/search/which-planner" style="border-top: 0;">Which Planner Do I Have?<img src="<?php echo get_site_url(); ?>/wp-content/uploads/2019/07/top-book.png" style="height: 24px;margin-left: 7px;margin-top: -4px;" alt=""></a></li>
+						</ul>
+					</div>
 				</div>
 			</div>
-		</div>
-	</header>
+		</header>
 
 
 		<nav class="navbar navbar-default" role="navigation">
 
 			<div class="container">
+				<div class="row">
+					<div class="navbar-header">
 
-				<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
 
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+							<span class="sr-only">Toggle navigation</span>
 
-						<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
 
-						<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
 
-						<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
 
-						<span class="icon-bar"></span>
-
-					</button>
+						</button>
 
 
 
-					<?php if( get_header_image() != '' ) : ?>
+						<?php if( get_header_image() != '' ) : ?>
+
+
+
+						<div id="logo">
+
+							<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php header_image(); ?>"  height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="<?php bloginfo( 'name' ); ?>" class="img-responsive"/></a>
+
+						</div><!-- end of #logo -->
+
+
+
+					<?php endif; // header image was removed ?>
+
+
+
+					<?php if( !get_header_image() ) : ?>
 
 
 
 					<div id="logo">
 
-						<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php header_image(); ?>"  height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="<?php bloginfo( 'name' ); ?>" class="img-responsive"/></a>
+						<span class="site-name"><a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></span>
 
 					</div><!-- end of #logo -->
 
 
 
-				<?php endif; // header image was removed ?>
+				<?php endif; // header image was removed (again) ?>
 
 
 
-				<?php if( !get_header_image() ) : ?>
+			</div>
 
-
-
-				<div id="logo">
-
-					<span class="site-name"><a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></span>
-
-				</div><!-- end of #logo -->
-
-
-
-			<?php endif; // header image was removed (again) ?>
-
-
-
+			<?php dazzling_header_menu(); ?>
 		</div>
-
-		<?php dazzling_header_menu(); ?>
-
 	</div>
 
 	</nav><!-- .site-navigation -->

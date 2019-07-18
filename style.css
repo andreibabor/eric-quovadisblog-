@@ -31,7 +31,7 @@ Template: dazzling
 
 
 @import url("../dazzling/style.css");
-@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
 
 
 
@@ -586,21 +586,138 @@ a.featured_post_link:hover {
 }
 
 
- .second-footer .social a {
+.second-footer .social a {
 	margin: 0 7px;
 }
- .second-footer .social a:first-child {
+.second-footer .social a:first-child {
 	margin-left: 0;
 }
 .second-footer .social a:last-child {
-  	margin-right: 0;
+	margin-right: 0;
 }
 
+/* primary navigation */
+#menu-main_menu> li > a {
+	color: #656464;
+	font-weight: 600;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+}
+.navbar-default .navbar-nav > .open > a{
+	background-color: #e73c4c !important;
+	color: #fff !important;
+	text-decoration: none;
+}
+
+#menu-main_menu .caret{
+	display: none;
+}
+.navbar-default .navbar-nav > li > a:hover{
+	background-color: #e73c4c !important;
+	border-color: #38a0a9 !important;
+	color: #fff !important;
+}
+.dropdown-menu > li > a{
+	padding: 6px 20px 0px 20px;
+}
+.dropdown-menu > li > a, .navbar-nav > li > .dropdown-menu {
+	color: #000 !important;
+	background-color: #f7f7f7;
+	text-decoration: none;
+}
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, 
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover{
+	background-color: #e73c4c !important;
+	border-color: #e73c4c !important;
+	color: #fff !important;
+}
+.submenu{
+}
+.submenu a{
+	font-size: 14px !important;
+}
+.submenu a::after{
+	border-bottom: 2px solid #c5c5c5 !important;
+}
+
+.child{
+	padding-left: 10px;
+}
+.child a{
+	font-size: 14px;
+	color: #6b6b6b;
+}
+.child:hover{
+	background-color: #e73c4c !important;
+}
+
+
+#menu-item-21366 a::after,
+#menu-item-21367 a::after{
+	border-bottom: 1px solid #dfdfdf !important;
+}
+.dropdown-menu {
+	padding: 0;
+	min-width: 190px;
+	border-radius: 10px;
+	box-shadow: 0 6px 12px rgba(0,0,0,0.175);
+}
+.nav > li:hover > a, .nav > li > a:focus, .dropdown-menu > li:hover > a, .dropdown-menu > li > a:focus, .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+	background-color: #e73c4c;
+	color: white;
+}
+.submenu > li > a, .submenu > li > a:hover, .submenu > li > a:visited {
+	display: block;
+	color: #6b6b6b;
+	padding: 6px 20px 0px 30px;
+	text-decoration: none;
+}
+.submenu > li > a:active, .submenu > li > a:hover, .submenu > li > a:focus {
+	background-color: #e4e4e4;
+	/* color: white; */;
+}
+.dropdown-menu > li > a::after, .submenu > li > a::after {
+	content: " ";
+	display: block;
+	padding-bottom: 7px;
+	border-bottom: 1px solid #dfdfdf;
+}
+.dropdown-menu > li.with-submenu > a::after{
+	border-bottom: 2px solid #c5c5c5;
+}
+.dropdown-menu > li:last-child > a::after, .submenu > li:last-child > a::after{
+	border-bottom-width: 1px;
+	margin-bottom: 12px;
+}
+.submenu > li > a:focus::after, .submenu > li > a:hover::after, .submenu > li > a:active::after, .dropdown-menu > li > a:focus::after, .dropdown-menu > li > a:hover::after, .dropdown-menu > li > a:active::after {
+	visibility: hidden;
+}
+
+
+#secondary a{
+	color: #c9140d !important;
+}
+
+#secondary .nav-tabs>li>a:hover{
+	background-color: #eee !important;
+}
+
+/* end primary navigation */
 @media only screen and (max-width: 767px) { 
 	.top-bar .navbar-nav > li > a{
 		text-align: center;
 		padding: 10px;
 		font-size: 17px;
+	}
+
+	#menu-main_menu{
+		margin: 7.5px 0;
+	}
+	#menu-main_menu .child{
+		padding-left: 0;
+	}
+	.navbar-nav .open .dropdown-menu>li>a {
+		padding: 5px;
 	}
 }
 /*end andrei css*/

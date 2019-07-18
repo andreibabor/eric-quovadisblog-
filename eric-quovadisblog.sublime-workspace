@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"fff",
+				"fff6ef"
+			],
+			[
 				"b4",
 				"b4:grid	grid"
 			],
@@ -510,10 +514,6 @@
 			[
 				"scr",
 				"Scroll"
-			],
-			[
-				"bl",
-				"block"
 			]
 		]
 	},
@@ -523,7 +523,15 @@
 			"file": "footer.php",
 			"settings":
 			{
-				"buffer_size": 1318,
+				"buffer_size": 2289,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/E/vagrant-new/www/quovadisblog/public_html/wp-content/themes/dazzling/sidebar-home.php",
+			"settings":
+			{
+				"buffer_size": 1077,
 				"line_ending": "Unix"
 			}
 		},
@@ -531,42 +539,8 @@
 			"file": "style.css",
 			"settings":
 			{
-				"buffer_size": 4505,
+				"buffer_size": 7619,
 				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "Searching 338 files for \"footer_menu\"\n\n0 matches across 0 files\n\n\nSearching 338 files for \"Social Menu\"\n\nE:\\vagrant-new\\www\\quovadisblog\\public_html\\wp-content\\themes\\dazzling\\functions.php:\n  269  \n  270  function register_social_menu() {\n  271:   register_nav_menu( 'social-menu', _x( 'Social Menu', 'nav menu location', 'dazzling' ) );\n  272  }\n  273  \n\nE:\\vagrant-new\\www\\quovadisblog\\public_html\\wp-content\\themes\\dazzling\\languages\\de_DE.po:\n  251  #, fuzzy\n  252  msgctxt \"nav menu location\"\n  253: msgid \"Social Menu\"\n  254  msgstr \"Soziale Netzwerke\"\n  255  \n\nE:\\vagrant-new\\www\\quovadisblog\\public_html\\wp-content\\themes\\dazzling\\languages\\fa_IR.po:\n  242  #, fuzzy\n  243  msgctxt \"nav menu location\"\n  244: msgid \"Social Menu\"\n  245  msgstr \"شبکه های اجتماعی\"\n  246  \n\nE:\\vagrant-new\\www\\quovadisblog\\public_html\\wp-content\\themes\\dazzling\\languages\\lt_LT.po:\n  415  msgctxt \"nav menu location\"\n  416  \n  417: msgid \"Social Menu\"\n  418  \n  419  msgstr \"Socialinis meniu\"\n\nE:\\vagrant-new\\www\\quovadisblog\\public_html\\wp-content\\themes\\dazzling\\languages\\pl_PL.po:\n  302  #, fuzzy\n  303  msgctxt \"nav menu location\"\n  304: msgid \"Social Menu\"\n  305  msgstr \"Społeczność\"\n  306  \n\n5 matches across 5 files\n\n\nSearching 338 files for \"Footer Links\"\n\nE:\\vagrant-new\\www\\quovadisblog\\public_html\\wp-content\\themes\\dazzling-child\\inc\\extras.php:\n  203      'container'       => '',                              // remove nav container\n  204      'container_class' => 'footer-links clearfix',   // class of container (should you choose to use it)\n  205:     'menu'            => __( 'Footer Links', 'dazzling' ),   // nav name\n  206      'menu_class'      => 'nav footer-nav clearfix',      // adding custom nav class\n  207      'theme_location'  => 'footer-links',             // where it's located in the theme\n\nE:\\vagrant-new\\www\\quovadisblog\\public_html\\wp-content\\themes\\dazzling\\functions.php:\n   58    register_nav_menus( array(\n   59      'primary'      => __( 'Primary Menu', 'dazzling' ),\n   60:     'footer-links' => __( 'Footer Links', 'dazzling' ) // secondary menu in footer\n   61    ) );\n   62  \n\nE:\\vagrant-new\\www\\quovadisblog\\public_html\\wp-content\\themes\\dazzling\\inc\\extras.php:\n  155      'container'       => '',                              // remove nav container\n  156      'container_class' => 'footer-links clearfix',   // class of container (should you choose to use it)\n  157:     'menu'            => __( 'Footer Links', 'dazzling' ),   // nav name\n  158      'menu_class'      => 'nav footer-nav clearfix',      // adding custom nav class\n  159      'theme_location'  => 'footer-links',             // where it's located in the theme\n\nE:\\vagrant-new\\www\\quovadisblog\\public_html\\wp-content\\themes\\dazzling\\languages\\da_DK.po:\n  193  \n  194  #: ../functions.php:60 ../inc/extras.php:152\n  195: msgid \"Footer Links\"\n  196  msgstr \"Links i sidefoden\"\n  197  \n\nE:\\vagrant-new\\www\\quovadisblog\\public_html\\wp-content\\themes\\dazzling\\languages\\dazzling.pot:\n  188  \n  189  #: ../functions.php:60 ../inc/extras.php:152\n  190: msgid \"Footer Links\"\n  191  msgstr \"\"\n  192  \n\nE:\\vagrant-new\\www\\quovadisblog\\public_html\\wp-content\\themes\\dazzling\\languages\\de_DE.po:\n  209  \n  210  #: functions.php:60 inc/extras.php:152\n  211: msgid \"Footer Links\"\n  212  msgstr \"Links für den Fußbereich\"\n  213  \n\nE:\\vagrant-new\\www\\quovadisblog\\public_html\\wp-content\\themes\\dazzling\\languages\\es_ES.po:\n  196  \n  197  #: ../functions.php:60 ../inc/extras.php:152\n  198: msgid \"Footer Links\"\n  199  msgstr \"Links del Pie de página\"\n  200  \n\nE:\\vagrant-new\\www\\quovadisblog\\public_html\\wp-content\\themes\\dazzling\\languages\\es_MX.po:\n  196  \n  197  #: ../functions.php:60 ../inc/extras.php:152\n  198: msgid \"Footer Links\"\n  199  msgstr \"Links del Pie de página\"\n  200  \n\nE:\\vagrant-new\\www\\quovadisblog\\public_html\\wp-content\\themes\\dazzling\\languages\\fa_IR.po:\n  200  \n  201  #: functions.php:60 inc/extras.php:152\n  202: msgid \"Footer Links\"\n  203  msgstr \"پیوندهای پانویس\"\n  204  \n\nE:\\vagrant-new\\www\\quovadisblog\\public_html\\wp-content\\themes\\dazzling\\languages\\fi.po:\n  192  \n  193  #: ../functions.php:60 ../inc/extras.php:152\n  194: msgid \"Footer Links\"\n  195  msgstr \"Alatunnisteen linkit\"\n  196  \n\nE:\\vagrant-new\\www\\quovadisblog\\public_html\\wp-content\\themes\\dazzling\\languages\\fr_FR.po:\n  194  \n  195  #: ../functions.php:60 ../inc/extras.php:152\n  196: msgid \"Footer Links\"\n  197  msgstr \"Liens de pied de page\"\n  198  \n\nE:\\vagrant-new\\www\\quovadisblog\\public_html\\wp-content\\themes\\dazzling\\languages\\hu_HU.po:\n  194  \n  195  #: ../functions.php:60 ../inc/extras.php:152\n  196: msgid \"Footer Links\"\n  197  msgstr \"Footer link\"\n  198  \n\nE:\\vagrant-new\\www\\quovadisblog\\public_html\\wp-content\\themes\\dazzling\\languages\\it_IT.po:\n  196  \n  197  #: ../functions.php:60 ../inc/extras.php:167\n  198: msgid \"Footer Links\"\n  199  msgstr \"Link a pie di pagina\"\n  200  \n\nE:\\vagrant-new\\www\\quovadisblog\\public_html\\wp-content\\themes\\dazzling\\languages\\lt_LT.po:\n  333  #: ../functions.php:60 ../inc/extras.php:155\n  334  \n  335: msgid \"Footer Links\"\n  336  \n  337  msgstr \"Poraštės nuorodos\"\n\nE:\\vagrant-new\\www\\quovadisblog\\public_html\\wp-content\\themes\\dazzling\\languages\\nl_NL.po:\n  196  \n  197  #: ../functions.php:60 ../inc/extras.php:152\n  198: msgid \"Footer Links\"\n  199: msgstr \"Footer Links\"\n  200  \n  201  #: ../functions.php:88\n  ...\n  463  #, fuzzy\n  464  msgid \"Footer Social Icons\"\n  465: msgstr \"Footer Links\"\n  466  \n  467  #: ../inc/customizer.php:440\n\nE:\\vagrant-new\\www\\quovadisblog\\public_html\\wp-content\\themes\\dazzling\\languages\\pl_PL.po:\n  250  # @ dazzling\n  251  #: ../functions.php:60 ../inc/extras.php:152\n  252: msgid \"Footer Links\"\n  253  msgstr \"Linki w stopce\"\n  254  \n\nE:\\vagrant-new\\www\\quovadisblog\\public_html\\wp-content\\themes\\dazzling\\languages\\pt_BR.po:\n  197  \n  198  #: ../functions.php:60 ../inc/extras.php:152\n  199: msgid \"Footer Links\"\n  200  msgstr \"Links do Rodapé\"\n  201  \n\nE:\\vagrant-new\\www\\quovadisblog\\public_html\\wp-content\\themes\\dazzling\\languages\\pt_PT.po:\n  197  \n  198  #: ../functions.php:60 ../inc/extras.php:152\n  199: msgid \"Footer Links\"\n  200  msgstr \"Links do Rodapé\"\n  201  \n\nE:\\vagrant-new\\www\\quovadisblog\\public_html\\wp-content\\themes\\dazzling\\languages\\ru_ru.po:\n  195  \n  196  #: ../functions.php:60 ../inc/extras.php:152\n  197: msgid \"Footer Links\"\n  198  msgstr \"Ссылки в Футере\"\n  199  \n\nE:\\vagrant-new\\www\\quovadisblog\\public_html\\wp-content\\themes\\dazzling\\languages\\sv_SE.po:\n  193  \n  194  #: ../functions.php:60 ../inc/extras.php:152\n  195: msgid \"Footer Links\"\n  196  msgstr \"Footer länkar\"\n  197  \n\nE:\\vagrant-new\\www\\quovadisblog\\public_html\\wp-content\\themes\\dazzling\\languages\\tr_TR.po:\n  189  \n  190  #: ../functions.php:60 ../inc/extras.php:152\n  191: msgid \"Footer Links\"\n  192  msgstr \"Altbilgi Linkleri\"\n  193  \n\nE:\\vagrant-new\\www\\quovadisblog\\public_html\\wp-content\\themes\\dazzling\\languages\\uk.po:\n  438  \n  439  #: ../functions.php:60 ../inc/extras.php:152\n  440: msgid \"Footer Links\"\n  441  msgstr \"Посилання у нижньому колонтитулі (footer)\"\n  442  \n\n24 matches across 22 files\n",
-			"settings":
-			{
-				"buffer_size": 7081,
-				"line_ending": "Windows",
-				"name": "Find Results",
-				"scratch": true
-			}
-		},
-		{
-			"file": "/E/vagrant-new/www/quovadisblog/public_html/wp-content/themes/dazzling/functions.php",
-			"settings":
-			{
-				"buffer_size": 11677,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/E/vagrant-new/www/quovadisblog/public_html/wp-content/themes/dazzling/inc/extras.php",
-			"settings":
-			{
-				"buffer_size": 15263,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "functions.php",
-			"settings":
-			{
-				"buffer_size": 3840,
-				"line_ending": "Unix"
 			}
 		},
 		{
@@ -578,42 +552,26 @@
 			}
 		},
 		{
-			"file": "inc/template-tags.php",
+			"file": "/E/vagrant-new/www/quovadisblog/public_html/wp-content/themes/dazzling/functions.php",
 			"settings":
 			{
-				"buffer_size": 6571,
+				"buffer_size": 12066,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "inc/woo-setup.php",
+			"file": "inc/extras.php",
 			"settings":
 			{
-				"buffer_size": 4135,
+				"buffer_size": 19610,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "inc/wpcom.php",
+			"file": "header.php",
 			"settings":
 			{
-				"buffer_size": 619,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "inc/custom-header.php",
-			"settings":
-			{
-				"buffer_size": 3523,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "inc/customizer.php",
-			"settings":
-			{
-				"buffer_size": 947,
+				"buffer_size": 3529,
 				"line_ending": "Unix"
 			}
 		}
@@ -694,6 +652,16 @@
 	},
 	"file_history":
 	[
+		"/E/vagrant-new/www/quovadisblog/public_html/wp-content/themes/dazzling/footer.php",
+		"/E/vagrant-new/www/quovadisblog/public_html/wp-content/themes/dazzling-child/footer-home.php",
+		"/E/vagrant-new/www/quovadisblog/public_html/wp-content/themes/dazzling-child/functions.php",
+		"/E/vagrant-new/www/quovadisblog/public_html/wp-content/themes/dazzling/inc/extras.php",
+		"/E/vagrant-new/www/quovadisblog/public_html/wp-content/themes/dazzling-child/inc/customizer.php",
+		"/E/vagrant-new/www/quovadisblog/public_html/wp-content/themes/dazzling-child/inc/custom-header.php",
+		"/E/vagrant-new/www/quovadisblog/public_html/wp-content/themes/dazzling-child/inc/wpcom.php",
+		"/E/vagrant-new/www/quovadisblog/public_html/wp-content/themes/dazzling-child/inc/woo-setup.php",
+		"/E/vagrant-new/www/quovadisblog/public_html/wp-content/themes/dazzling-child/inc/template-tags.php",
+		"/E/vagrant-new/www/quovadisblog/public_html/wp-content/themes/dazzling/functions.php",
 		"/E/vagrant-new/www/quovadisblog/public_html/wp-content/themes/dazzling-child/inc/extras.php",
 		"/E/vagrant-new/www/quovadisblog/public_html/wp-config.php",
 		"/E/vagrant-new/vvv-custom.yml",
@@ -811,17 +779,7 @@
 		"/E/xampp_/htdocs/invatare_api/test/scripts.js",
 		"/E/xampp_/htdocs/taskuri/richard/new_project/tema/richard/src/assets/style-page-cbd.scss.liquid",
 		"/E/xampp_/htdocs/taskuri/richard/new_project/tema/richard/.gitignore",
-		"/E/vagrant-new/www/sage9-new/public_html/wp-content/themes/sage9/app/setup.php",
-		"/E/vagrant-new/www/sage9-new/public_html/wp-content/themes/sage9/app/Controllers/Single.php",
-		"/E/vagrant-new/www/sage9-new/public_html/wp-content/themes/sage9/resources/views/front-page.blade.php",
-		"/E/vagrant-new/www/sage9-new/public_html/wp-content/themes/sage9/resources/views/partials/content-single.blade.php",
-		"/E/vagrant-new/www/sage9-new/public_html/wp-content/themes/sage9/app/Controllers/FrontPage.php",
-		"/E/vagrant-new/www/sage9-new/public_html/wp-content/themes/sage9/composer.json",
-		"/E/vagrant-new/www/sage9-new/public_html/wp-content/themes/sage9/resources/functions.php",
-		"/E/xampp_/htdocs/invatare_api/ghibli/scripts.js",
-		"/E/xampp_/htdocs/invatare_api/yotpo/Yotpo-ajax/yotpo-ajax.js",
-		"/E/xampp_/htdocs/invatare_api/sandbox/ghibli/scripts.js",
-		"/E/vagrant-new/www/sage9-new/public_html/wp-content/themes/sage9/resources/views/partials/page-header.blade.php"
+		"/E/vagrant-new/www/sage9-new/public_html/wp-content/themes/sage9/app/setup.php"
 	],
 	"find":
 	{
@@ -829,7 +787,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 90.0,
 		"where_history":
 		[
 			""
@@ -840,6 +798,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"navbar navbar-default",
+			"!important",
+			"home-widget-1",
+			"<?php get_sidebar( 'footer",
+			"Footer Widget 1",
+			"Footer Widget 1 ",
+			"dazzling_widgets_init",
 			"Footer Links",
 			"Social Menu",
 			"footer_menu",
@@ -960,14 +925,7 @@
 			"(../webfonts",
 			"blog",
 			"age",
-			"getDate",
-			"../images",
-			"var data = JSON.stringify(false);",
-			"movie",
-			"/**\n * Register sidebars\n */",
-			"()\n",
-			"/**\n * Register sidebars\n */",
-			"test pass"
+			"getDate"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -986,7 +944,7 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -994,15 +952,15 @@
 					"file": "footer.php",
 					"settings":
 					{
-						"buffer_size": 1318,
+						"buffer_size": 2289,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1193,
-								1193
+								1776,
+								1747
 							]
 						],
 						"settings":
@@ -1062,25 +1020,103 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 197.0,
+						"translation.y": 469.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "style.css",
+					"file": "/E/vagrant-new/www/quovadisblog/public_html/wp-content/themes/dazzling/sidebar-home.php",
 					"settings":
 					{
-						"buffer_size": 4505,
+						"buffer_size": 1077,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								386,
+								610
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "style.css",
+					"settings":
+					{
+						"buffer_size": 7619,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5277,
+								5277
 							]
 						],
 						"settings":
@@ -1139,456 +1175,13 @@
 							"syntax": "Packages/CSS/CSS.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 9542.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"settings":
-					{
-						"buffer_size": 7081,
-						"regions":
-						{
-							"match":
-							{
-								"flags": 112,
-								"regions":
-								[
-									[
-										288,
-										299
-									],
-									[
-										513,
-										524
-									],
-									[
-										725,
-										736
-									],
-									[
-										928,
-										939
-									],
-									[
-										1139,
-										1150
-									],
-									[
-										1586,
-										1598
-									],
-									[
-										2035,
-										2047
-									],
-									[
-										2438,
-										2450
-									],
-									[
-										2833,
-										2845
-									],
-									[
-										3059,
-										3071
-									],
-									[
-										3258,
-										3270
-									],
-									[
-										3487,
-										3499
-									],
-									[
-										3715,
-										3727
-									],
-									[
-										3937,
-										3949
-									],
-									[
-										4154,
-										4166
-									],
-									[
-										4379,
-										4391
-									],
-									[
-										4605,
-										4617
-									],
-									[
-										4821,
-										4833
-									],
-									[
-										5046,
-										5058
-									],
-									[
-										5268,
-										5280
-									],
-									[
-										5297,
-										5309
-									],
-									[
-										5421,
-										5433
-									],
-									[
-										5657,
-										5669
-									],
-									[
-										5876,
-										5888
-									],
-									[
-										6096,
-										6108
-									],
-									[
-										6316,
-										6328
-									],
-									[
-										6536,
-										6548
-									],
-									[
-										6754,
-										6766
-									],
-									[
-										6973,
-										6985
-									]
-								],
-								"scope": ""
-							}
-						},
-						"selection":
-						[
-							[
-								2042,
-								2042
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close"
-							],
-							"detect_indentation": false,
-							"incomplete_sync": null,
-							"output_tag": 3,
-							"remote_loading": false,
-							"result_base_dir": "",
-							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
-							"result_line_regex": "^ +([0-9]+):",
-							"scroll_past_end": true,
-							"synced": false,
-							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 792.0,
+						"translation.y": 8035.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "/E/vagrant-new/www/quovadisblog/public_html/wp-content/themes/dazzling/functions.php",
-					"settings":
-					{
-						"buffer_size": 11677,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1963,
-								1948
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close"
-							],
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 652.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/E/vagrant-new/www/quovadisblog/public_html/wp-content/themes/dazzling/inc/extras.php",
-					"settings":
-					{
-						"buffer_size": 15263,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5612,
-								5612
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close"
-							],
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 2535.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "functions.php",
-					"settings":
-					{
-						"buffer_size": 3840,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close"
-							],
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
 					"file": "inc/popular-posts-widget.php",
 					"settings":
 					{
@@ -1661,25 +1254,25 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1600.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 7,
-					"file": "inc/template-tags.php",
+					"buffer": 4,
+					"file": "/E/vagrant-new/www/quovadisblog/public_html/wp-content/themes/dazzling/functions.php",
 					"settings":
 					{
-						"buffer_size": 6571,
+						"buffer_size": 12066,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								5564,
+								5564
 							]
 						],
 						"settings":
@@ -1732,32 +1325,33 @@
 								"bh_single_quote_open",
 								"bh_single_quote_close"
 							],
-							"incomplete_sync": true,
+							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
 							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 650.0,
+						"translation.y": 2078.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 8,
-					"file": "inc/woo-setup.php",
+					"buffer": 5,
+					"file": "inc/extras.php",
 					"settings":
 					{
-						"buffer_size": 4135,
+						"buffer_size": 19610,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								5720,
+								5720
 							]
 						],
 						"settings":
@@ -1810,188 +1404,33 @@
 								"bh_single_quote_open",
 								"bh_single_quote_close"
 							],
-							"incomplete_sync": true,
+							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
 							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 3025.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 9,
-					"file": "inc/wpcom.php",
+					"buffer": 6,
+					"file": "header.php",
 					"settings":
 					{
-						"buffer_size": 619,
+						"buffer_size": 3529,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close"
-							],
-							"incomplete_sync": true,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "inc/custom-header.php",
-					"settings":
-					{
-						"buffer_size": 3523,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								574,
-								574
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close"
-							],
-							"incomplete_sync": true,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 11,
-					"file": "inc/customizer.php",
-					"settings":
-					{
-						"buffer_size": 947,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
+								2058,
+								2058
 							]
 						],
 						"settings":
@@ -2049,8 +1488,8 @@
 							"synced": false,
 							"syntax": "Packages/PHP/PHP.tmLanguage"
 						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.x": 16.0,
+						"translation.y": 1365.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -2171,6 +1610,10 @@
 		"height": 500.0,
 		"selected_items":
 		[
+			[
+				"highcrate.myshopify.com - [BoostCommerce] Live theme MM filter & search 09-07-2019",
+				"/E/xampp_/htdocs/taskuri/ninja_shopify/highcrate.myshopify.com/[BoostCommerce] Live theme MM filter & search 09-07-2019/highcrate.myshopify.com - [BoostCommerce] Live theme MM filter & search 09-07-2019.sublime-project"
+			],
 			[
 				"",
 				"/E/vagrant-new/www/peter-ninja-wp/public_html/wp-content/themes/rockaway-sailing/rockawaySailing-peter-wp.sublime-project"
