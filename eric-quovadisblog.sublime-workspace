@@ -531,7 +531,7 @@
 			"file": "/E/vagrant-new/www/quovadisblog/public_html/wp-content/themes/dazzling/sidebar-home.php",
 			"settings":
 			{
-				"buffer_size": 1077,
+				"buffer_size": 1078,
 				"line_ending": "Unix"
 			}
 		},
@@ -539,7 +539,7 @@
 			"file": "style.css",
 			"settings":
 			{
-				"buffer_size": 7619,
+				"buffer_size": 10298,
 				"line_ending": "Windows"
 			}
 		},
@@ -571,7 +571,7 @@
 			"file": "header.php",
 			"settings":
 			{
-				"buffer_size": 3529,
+				"buffer_size": 3700,
 				"line_ending": "Unix"
 			}
 		}
@@ -787,7 +787,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 90.0,
+		"height": 0.0,
 		"where_history":
 		[
 			""
@@ -1030,15 +1030,15 @@
 					"file": "/E/vagrant-new/www/quovadisblog/public_html/wp-content/themes/dazzling/sidebar-home.php",
 					"settings":
 					{
-						"buffer_size": 1077,
+						"buffer_size": 1078,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								386,
-								610
+								1078,
+								1078
 							]
 						],
 						"settings":
@@ -1108,15 +1108,15 @@
 					"file": "style.css",
 					"settings":
 					{
-						"buffer_size": 7619,
+						"buffer_size": 10298,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5277,
-								5277
+								9895,
+								9895
 							]
 						],
 						"settings":
@@ -1172,10 +1172,11 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/CSS/CSS.tmLanguage"
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 8035.0,
+						"translation.y": 12097.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1422,15 +1423,15 @@
 					"file": "header.php",
 					"settings":
 					{
-						"buffer_size": 3529,
+						"buffer_size": 3700,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2058,
-								2058
+								555,
+								555
 							]
 						],
 						"settings":
@@ -1486,10 +1487,11 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage"
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 16.0,
-						"translation.y": 1365.0,
+						"translation.x": 0.0,
+						"translation.y": 150.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1611,12 +1613,12 @@
 		"selected_items":
 		[
 			[
-				"highcrate.myshopify.com - [BoostCommerce] Live theme MM filter & search 09-07-2019",
-				"/E/xampp_/htdocs/taskuri/ninja_shopify/highcrate.myshopify.com/[BoostCommerce] Live theme MM filter & search 09-07-2019/highcrate.myshopify.com - [BoostCommerce] Live theme MM filter & search 09-07-2019.sublime-project"
-			],
-			[
 				"",
 				"/E/vagrant-new/www/peter-ninja-wp/public_html/wp-content/themes/rockaway-sailing/rockawaySailing-peter-wp.sublime-project"
+			],
+			[
+				"highcrate.myshopify.com - [BoostCommerce] Live theme MM filter & search 09-07-2019",
+				"/E/xampp_/htdocs/taskuri/ninja_shopify/highcrate.myshopify.com/[BoostCommerce] Live theme MM filter & search 09-07-2019/highcrate.myshopify.com - [BoostCommerce] Live theme MM filter & search 09-07-2019.sublime-project"
 			],
 			[
 				"blackbeltcommerce.com V2",

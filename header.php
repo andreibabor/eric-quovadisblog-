@@ -97,7 +97,7 @@
 					<div class="pull-right">
 						<ul class="nav navbar-nav">
 							<li class="hidden-xs"><a href="https://quovadisplanners.com/contact">Contact</a></li>
-							<li class="hidden-xs"><a href="http://eepurl.com/ca0czf">Subscribe</a></li>
+							<li class="hidden-xs"><a href="https://us1.list-manage.com/subscribe?u=cc6a3444b6d3d449be1f10d62&id=504f19cf25">Subscribe</a></li>
 							<li class="topbook"><a href="https://quovadisplanners.com/search/which-planner" style="border-top: 0;">Which Planner Do I Have?<img src="<?php echo get_site_url(); ?>/wp-content/uploads/2019/07/top-book.png" style="height: 24px;margin-left: 7px;margin-top: -4px;" alt=""></a></li>
 						</ul>
 					</div>
