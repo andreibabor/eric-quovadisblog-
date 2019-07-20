@@ -539,7 +539,7 @@
 			"file": "style.css",
 			"settings":
 			{
-				"buffer_size": 10298,
+				"buffer_size": 11253,
 				"line_ending": "Windows"
 			}
 		},
@@ -571,7 +571,7 @@
 			"file": "header.php",
 			"settings":
 			{
-				"buffer_size": 3700,
+				"buffer_size": 3755,
 				"line_ending": "Unix"
 			}
 		}
@@ -798,6 +798,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			".top-bar",
+			".navbar.navbar-default",
+			"header_image",
+			"logo",
 			"navbar navbar-default",
 			"!important",
 			"home-widget-1",
@@ -921,11 +925,7 @@
 			"sprite",
 			"style",
 			"app",
-			"settings",
-			"(../webfonts",
-			"blog",
-			"age",
-			"getDate"
+			"settings"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1108,15 +1108,15 @@
 					"file": "style.css",
 					"settings":
 					{
-						"buffer_size": 10298,
+						"buffer_size": 11253,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								9895,
-								9895
+								5820,
+								5820
 							]
 						],
 						"settings":
@@ -1176,7 +1176,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 12097.0,
+						"translation.y": 8390.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1423,15 +1423,15 @@
 					"file": "header.php",
 					"settings":
 					{
-						"buffer_size": 3700,
+						"buffer_size": 3755,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								555,
-								555
+								3013,
+								2989
 							]
 						],
 						"settings":
@@ -1488,10 +1488,11 @@
 							"remote_loading": false,
 							"synced": false,
 							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"translate_tabs_to_spaces": false,
+							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 150.0,
+						"translation.y": 2005.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
