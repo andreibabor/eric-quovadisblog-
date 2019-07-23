@@ -539,7 +539,7 @@
 			"file": "style.css",
 			"settings":
 			{
-				"buffer_size": 11253,
+				"buffer_size": 12941,
 				"line_ending": "Windows"
 			}
 		},
@@ -1108,15 +1108,15 @@
 					"file": "style.css",
 					"settings":
 					{
-						"buffer_size": 11253,
+						"buffer_size": 12941,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5820,
-								5820
+								10835,
+								10835
 							]
 						],
 						"settings":
@@ -1176,7 +1176,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 8390.0,
+						"translation.y": 12922.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
